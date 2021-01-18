@@ -5,12 +5,12 @@ except:
         # TODO optimize for vps use fully - currently only heroku is focused
         # Set true if its VPS [currently not fully working]
         IS_VPS = False
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "649e419e5fa739da02b649780d492c1b"
+        API_ID = 2048409
+        BOT_TOKEN = "1432861490:AAGdUYA9b3_L7gNnjbuzFbCTnA3OVVpagZM"
+        BASE_URL_OF_BOT = "https://t.me/Kyukarlbot"
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
+        ALD_USR = [1464067320,911646244,-1001260343472]
         
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
@@ -28,7 +28,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "postgresql://toolkit:Teletoolkir@postgresql/postgres"
         
         # The base direcory to which the files will be upload if using RCLONE
         RCLONE_BASE_DIR = "/"
